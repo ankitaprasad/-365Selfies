@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC2ECDBB1BFAD68A0006FEFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2ECDBA1BFAD68A0006FEFE /* AppDelegate.swift */; };
+		BC2ECDBD1BFAD68A0006FEFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2ECDBC1BFAD68A0006FEFE /* ViewController.swift */; };
+		BC2ECDC01BFAD68A0006FEFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2ECDBE1BFAD68A0006FEFE /* Main.storyboard */; };
+		BC2ECDC21BFAD68A0006FEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2ECDC11BFAD68A0006FEFE /* Assets.xcassets */; };
+		BC2ECDC51BFAD68A0006FEFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2ECDC31BFAD68A0006FEFE /* LaunchScreen.storyboard */; };
+		BC2ECDD01BFAD68A0006FEFE /* _365SelfiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2ECDCF1BFAD68A0006FEFE /* _365SelfiesTests.swift */; };
+		BC2ECDDB1BFAD68A0006FEFE /* _365SelfiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2ECDDA1BFAD68A0006FEFE /* _365SelfiesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC2ECDCC1BFAD68A0006FEFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2ECDAF1BFAD68A0006FEFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2ECDB61BFAD68A0006FEFE;
+			remoteInfo = "#365Selfies";
+		};
+		BC2ECDD71BFAD68A0006FEFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2ECDAF1BFAD68A0006FEFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2ECDB61BFAD68A0006FEFE;
+			remoteInfo = "#365Selfies";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC2ECDB71BFAD68A0006FEFE /* #365Selfies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#365Selfies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2ECDBA1BFAD68A0006FEFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC2ECDBC1BFAD68A0006FEFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC2ECDBF1BFAD68A0006FEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC2ECDC11BFAD68A0006FEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC2ECDC41BFAD68A0006FEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC2ECDC61BFAD68A0006FEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2ECDCB1BFAD68A0006FEFE /* #365SelfiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "#365SelfiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2ECDCF1BFAD68A0006FEFE /* _365SelfiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _365SelfiesTests.swift; sourceTree = "<group>"; };
+		BC2ECDD11BFAD68A0006FEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2ECDD61BFAD68A0006FEFE /* #365SelfiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "#365SelfiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2ECDDA1BFAD68A0006FEFE /* _365SelfiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _365SelfiesUITests.swift; sourceTree = "<group>"; };
+		BC2ECDDC1BFAD68A0006FEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC2ECDB41BFAD68A0006FEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2ECDC81BFAD68A0006FEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2ECDD31BFAD68A0006FEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC2ECDAE1BFAD68A0006FEFE = {
+			isa = PBXGroup;
+			children = (
+				BC2ECDB91BFAD68A0006FEFE /* #365Selfies */,
+				BC2ECDCE1BFAD68A0006FEFE /* #365SelfiesTests */,
+				BC2ECDD91BFAD68A0006FEFE /* #365SelfiesUITests */,
+				BC2ECDB81BFAD68A0006FEFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2ECDB81BFAD68A0006FEFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2ECDB71BFAD68A0006FEFE /* #365Selfies.app */,
+				BC2ECDCB1BFAD68A0006FEFE /* #365SelfiesTests.xctest */,
+				BC2ECDD61BFAD68A0006FEFE /* #365SelfiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2ECDB91BFAD68A0006FEFE /* #365Selfies */ = {
+			isa = PBXGroup;
+			children = (
+				BC2ECDBA1BFAD68A0006FEFE /* AppDelegate.swift */,
+				BC2ECDBC1BFAD68A0006FEFE /* ViewController.swift */,
+				BC2ECDBE1BFAD68A0006FEFE /* Main.storyboard */,
+				BC2ECDC11BFAD68A0006FEFE /* Assets.xcassets */,
+				BC2ECDC31BFAD68A0006FEFE /* LaunchScreen.storyboard */,
+				BC2ECDC61BFAD68A0006FEFE /* Info.plist */,
+			);
+			path = "#365Selfies";
+			sourceTree = "<group>";
+		};
+		BC2ECDCE1BFAD68A0006FEFE /* #365SelfiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2ECDCF1BFAD68A0006FEFE /* _365SelfiesTests.swift */,
+				BC2ECDD11BFAD68A0006FEFE /* Info.plist */,
+			);
+			path = "#365SelfiesTests";
+			sourceTree = "<group>";
+		};
+		BC2ECDD91BFAD68A0006FEFE /* #365SelfiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2ECDDA1BFAD68A0006FEFE /* _365SelfiesUITests.swift */,
+				BC2ECDDC1BFAD68A0006FEFE /* Info.plist */,
+			);
+			path = "#365SelfiesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2ECDB61BFAD68A0006FEFE /* #365Selfies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2ECDDF1BFAD68A0006FEFE /* Build configuration list for PBXNativeTarget "#365Selfies" */;
+			buildPhases = (
+				BC2ECDB31BFAD68A0006FEFE /* Sources */,
+				BC2ECDB41BFAD68A0006FEFE /* Frameworks */,
+				BC2ECDB51BFAD68A0006FEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "#365Selfies";
+			productName = "#365Selfies";
+			productReference = BC2ECDB71BFAD68A0006FEFE /* #365Selfies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC2ECDCA1BFAD68A0006FEFE /* #365SelfiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2ECDE21BFAD68A0006FEFE /* Build configuration list for PBXNativeTarget "#365SelfiesTests" */;
+			buildPhases = (
+				BC2ECDC71BFAD68A0006FEFE /* Sources */,
+				BC2ECDC81BFAD68A0006FEFE /* Frameworks */,
+				BC2ECDC91BFAD68A0006FEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2ECDCD1BFAD68A0006FEFE /* PBXTargetDependency */,
+			);
+			name = "#365SelfiesTests";
+			productName = "#365SelfiesTests";
+			productReference = BC2ECDCB1BFAD68A0006FEFE /* #365SelfiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC2ECDD51BFAD68A0006FEFE /* #365SelfiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2ECDE51BFAD68A0006FEFE /* Build configuration list for PBXNativeTarget "#365SelfiesUITests" */;
+			buildPhases = (
+				BC2ECDD21BFAD68A0006FEFE /* Sources */,
+				BC2ECDD31BFAD68A0006FEFE /* Frameworks */,
+				BC2ECDD41BFAD68A0006FEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2ECDD81BFAD68A0006FEFE /* PBXTargetDependency */,
+			);
+			name = "#365SelfiesUITests";
+			productName = "#365SelfiesUITests";
+			productReference = BC2ECDD61BFAD68A0006FEFE /* #365SelfiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC2ECDAF1BFAD68A0006FEFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ankita Prasad";
+				TargetAttributes = {
+					BC2ECDB61BFAD68A0006FEFE = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					BC2ECDCA1BFAD68A0006FEFE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BC2ECDB61BFAD68A0006FEFE;
+					};
+					BC2ECDD51BFAD68A0006FEFE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BC2ECDB61BFAD68A0006FEFE;
+					};
+				};
+			};
+			buildConfigurationList = BC2ECDB21BFAD68A0006FEFE /* Build configuration list for PBXProject "#365Selfies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC2ECDAE1BFAD68A0006FEFE;
+			productRefGroup = BC2ECDB81BFAD68A0006FEFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2ECDB61BFAD68A0006FEFE /* #365Selfies */,
+				BC2ECDCA1BFAD68A0006FEFE /* #365SelfiesTests */,
+				BC2ECDD51BFAD68A0006FEFE /* #365SelfiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC2ECDB51BFAD68A0006FEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2ECDC51BFAD68A0006FEFE /* LaunchScreen.storyboard in Resources */,
+				BC2ECDC21BFAD68A0006FEFE /* Assets.xcassets in Resources */,
+				BC2ECDC01BFAD68A0006FEFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2ECDC91BFAD68A0006FEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2ECDD41BFAD68A0006FEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC2ECDB31BFAD68A0006FEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2ECDBD1BFAD68A0006FEFE /* ViewController.swift in Sources */,
+				BC2ECDBB1BFAD68A0006FEFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2ECDC71BFAD68A0006FEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2ECDD01BFAD68A0006FEFE /* _365SelfiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2ECDD21BFAD68A0006FEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2ECDDB1BFAD68A0006FEFE /* _365SelfiesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC2ECDCD1BFAD68A0006FEFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2ECDB61BFAD68A0006FEFE /* #365Selfies */;
+			targetProxy = BC2ECDCC1BFAD68A0006FEFE /* PBXContainerItemProxy */;
+		};
+		BC2ECDD81BFAD68A0006FEFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2ECDB61BFAD68A0006FEFE /* #365Selfies */;
+			targetProxy = BC2ECDD71BFAD68A0006FEFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC2ECDBE1BFAD68A0006FEFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2ECDBF1BFAD68A0006FEFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC2ECDC31BFAD68A0006FEFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2ECDC41BFAD68A0006FEFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC2ECDDD1BFAD68A0006FEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC2ECDDE1BFAD68A0006FEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC2ECDE01BFAD68A0006FEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "#365Selfies/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "learn.-365Selfies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC2ECDE11BFAD68A0006FEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "#365Selfies/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "learn.-365Selfies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC2ECDE31BFAD68A0006FEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "#365SelfiesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "learn.-365SelfiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/#365Selfies.app/#365Selfies";
+			};
+			name = Debug;
+		};
+		BC2ECDE41BFAD68A0006FEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "#365SelfiesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "learn.-365SelfiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/#365Selfies.app/#365Selfies";
+			};
+			name = Release;
+		};
+		BC2ECDE61BFAD68A0006FEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "#365SelfiesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "learn.-365SelfiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "#365Selfies";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC2ECDE71BFAD68A0006FEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "#365SelfiesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "learn.-365SelfiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "#365Selfies";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC2ECDB21BFAD68A0006FEFE /* Build configuration list for PBXProject "#365Selfies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2ECDDD1BFAD68A0006FEFE /* Debug */,
+				BC2ECDDE1BFAD68A0006FEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2ECDDF1BFAD68A0006FEFE /* Build configuration list for PBXNativeTarget "#365Selfies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2ECDE01BFAD68A0006FEFE /* Debug */,
+				BC2ECDE11BFAD68A0006FEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC2ECDE21BFAD68A0006FEFE /* Build configuration list for PBXNativeTarget "#365SelfiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2ECDE31BFAD68A0006FEFE /* Debug */,
+				BC2ECDE41BFAD68A0006FEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC2ECDE51BFAD68A0006FEFE /* Build configuration list for PBXNativeTarget "#365SelfiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2ECDE61BFAD68A0006FEFE /* Debug */,
+				BC2ECDE71BFAD68A0006FEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC2ECDAF1BFAD68A0006FEFE /* Project object */;
+}
