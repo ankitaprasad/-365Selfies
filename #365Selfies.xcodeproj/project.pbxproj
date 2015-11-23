@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BC2ECDBB1BFAD68A0006FEFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2ECDBA1BFAD68A0006FEFE /* AppDelegate.swift */; };
-		BC2ECDBD1BFAD68A0006FEFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2ECDBC1BFAD68A0006FEFE /* ViewController.swift */; };
 		BC2ECDC01BFAD68A0006FEFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2ECDBE1BFAD68A0006FEFE /* Main.storyboard */; };
 		BC2ECDC21BFAD68A0006FEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2ECDC11BFAD68A0006FEFE /* Assets.xcassets */; };
 		BC2ECDC51BFAD68A0006FEFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2ECDC31BFAD68A0006FEFE /* LaunchScreen.storyboard */; };
 		BC2ECDD01BFAD68A0006FEFE /* _365SelfiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2ECDCF1BFAD68A0006FEFE /* _365SelfiesTests.swift */; };
 		BC2ECDDB1BFAD68A0006FEFE /* _365SelfiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2ECDDA1BFAD68A0006FEFE /* _365SelfiesUITests.swift */; };
+		BC2ECDEA1BFAD7410006FEFE /* FrontCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2ECDE91BFAD7410006FEFE /* FrontCameraViewController.swift */; };
+		BC2ECDEC1BFADFAA0006FEFE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2ECDEB1BFADFAA0006FEFE /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		BC2ECDB71BFAD68A0006FEFE /* #365Selfies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#365Selfies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2ECDBA1BFAD68A0006FEFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC2ECDBC1BFAD68A0006FEFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC2ECDBF1BFAD68A0006FEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC2ECDC11BFAD68A0006FEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC2ECDC41BFAD68A0006FEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		BC2ECDD61BFAD68A0006FEFE /* #365SelfiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "#365SelfiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2ECDDA1BFAD68A0006FEFE /* _365SelfiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _365SelfiesUITests.swift; sourceTree = "<group>"; };
 		BC2ECDDC1BFAD68A0006FEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2ECDE91BFAD7410006FEFE /* FrontCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontCameraViewController.swift; sourceTree = "<group>"; };
+		BC2ECDEB1BFADFAA0006FEFE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2ECDEC1BFADFAA0006FEFE /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		BC2ECDAE1BFAD68A0006FEFE = {
 			isa = PBXGroup;
 			children = (
+				BC2ECDEB1BFADFAA0006FEFE /* AVFoundation.framework */,
 				BC2ECDB91BFAD68A0006FEFE /* #365Selfies */,
 				BC2ECDCE1BFAD68A0006FEFE /* #365SelfiesTests */,
 				BC2ECDD91BFAD68A0006FEFE /* #365SelfiesUITests */,
@@ -97,8 +101,8 @@
 		BC2ECDB91BFAD68A0006FEFE /* #365Selfies */ = {
 			isa = PBXGroup;
 			children = (
+				BC2ECDE81BFAD6B90006FEFE /* ViewController */,
 				BC2ECDBA1BFAD68A0006FEFE /* AppDelegate.swift */,
-				BC2ECDBC1BFAD68A0006FEFE /* ViewController.swift */,
 				BC2ECDBE1BFAD68A0006FEFE /* Main.storyboard */,
 				BC2ECDC11BFAD68A0006FEFE /* Assets.xcassets */,
 				BC2ECDC31BFAD68A0006FEFE /* LaunchScreen.storyboard */,
@@ -123,6 +127,14 @@
 				BC2ECDDC1BFAD68A0006FEFE /* Info.plist */,
 			);
 			path = "#365SelfiesUITests";
+			sourceTree = "<group>";
+		};
+		BC2ECDE81BFAD6B90006FEFE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC2ECDE91BFAD7410006FEFE /* FrontCameraViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC2ECDBD1BFAD68A0006FEFE /* ViewController.swift in Sources */,
+				BC2ECDEA1BFAD7410006FEFE /* FrontCameraViewController.swift in Sources */,
 				BC2ECDBB1BFAD68A0006FEFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
