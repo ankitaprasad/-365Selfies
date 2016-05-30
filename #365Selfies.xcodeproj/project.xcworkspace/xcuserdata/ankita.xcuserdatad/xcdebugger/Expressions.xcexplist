@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "FrontCameraViewController.viewWillAppear(Bool) -&gt; ():FrontCameraViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(AVCaptureDevicePosition)device._position">
+            </PersistentString>
+            <PersistentString
+               value = "(AVCaptureDevice!)captureDevice">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FrontCameraViewController.offLabelPressed(UITapGestureRecognizer) -&gt; ():FrontCameraViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(UITapGestureRecognizer *)sender.isa">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FrontCameraViewController.threeSLabelPressed(UITapGestureRecognizer) -&gt; ():FrontCameraViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

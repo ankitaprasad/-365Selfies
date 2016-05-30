@@ -15,6 +15,8 @@
 		BC2ECDDB1BFAD68A0006FEFE /* _365SelfiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2ECDDA1BFAD68A0006FEFE /* _365SelfiesUITests.swift */; };
 		BC2ECDEA1BFAD7410006FEFE /* FrontCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2ECDE91BFAD7410006FEFE /* FrontCameraViewController.swift */; };
 		BC2ECDEC1BFADFAA0006FEFE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2ECDEB1BFADFAA0006FEFE /* AVFoundation.framework */; };
+		BC61E7B21C1E493E00B98566 /* AddDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61E7B11C1E493D00B98566 /* AddDetailsViewController.swift */; };
+		BCFEFBB21C080A2800545868 /* CameraPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFEFBB11C080A2800545868 /* CameraPushButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BC2ECDDC1BFAD68A0006FEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC2ECDE91BFAD7410006FEFE /* FrontCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontCameraViewController.swift; sourceTree = "<group>"; };
 		BC2ECDEB1BFADFAA0006FEFE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BC61E7B11C1E493D00B98566 /* AddDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDetailsViewController.swift; sourceTree = "<group>"; };
+		BCFEFBB11C080A2800545868 /* CameraPushButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPushButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		BC2ECDB91BFAD68A0006FEFE /* #365Selfies */ = {
 			isa = PBXGroup;
 			children = (
+				BCFEFBB11C080A2800545868 /* CameraPushButton.swift */,
 				BC2ECDE81BFAD6B90006FEFE /* ViewController */,
 				BC2ECDBA1BFAD68A0006FEFE /* AppDelegate.swift */,
 				BC2ECDBE1BFAD68A0006FEFE /* Main.storyboard */,
@@ -132,6 +137,7 @@
 		BC2ECDE81BFAD6B90006FEFE /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BC61E7B11C1E493D00B98566 /* AddDetailsViewController.swift */,
 				BC2ECDE91BFAD7410006FEFE /* FrontCameraViewController.swift */,
 			);
 			name = ViewController;
@@ -268,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFEFBB21C080A2800545868 /* CameraPushButton.swift in Sources */,
 				BC2ECDEA1BFAD7410006FEFE /* FrontCameraViewController.swift in Sources */,
 				BC2ECDBB1BFAD68A0006FEFE /* AppDelegate.swift in Sources */,
+				BC61E7B21C1E493E00B98566 /* AddDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +504,7 @@
 				BC2ECDE11BFAD68A0006FEFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC2ECDE21BFAD68A0006FEFE /* Build configuration list for PBXNativeTarget "#365SelfiesTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				BC2ECDE41BFAD68A0006FEFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC2ECDE51BFAD68A0006FEFE /* Build configuration list for PBXNativeTarget "#365SelfiesUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				BC2ECDE71BFAD68A0006FEFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
